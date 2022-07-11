@@ -1,0 +1,54 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_ir_accounting
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e-20210204\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-04 05:57+0000\n"
+"PO-Revision-Date: 2022-01-04 05:57+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_ir_accounting
+#: model:account.tax.group,name:l10n_ir_accounting.tax_group_ir_9
+msgid "Tax 9%"
+msgstr "مالیات ۹ درصد"
+
+#. module: l10n_ir_accounting
+#: model:account.tax.group,name:l10n_ir_accounting.sale_tax_ir_9
+msgid "Tax 9%"
+msgstr "مالیات ۹ درصد فروش"
+
+#. module: l10n_ir_accounting
+#: model:account.tax.group,name:l10n_ir_accounting.purchase_tax_ir_9
+msgid "Tax 9%"
+msgstr "مالیات ۹ درصد خرید"
+
+
+
+
+#. module: l10n_ir_accounting
+#: model:account.account.type,name:l10n_ir_accounting.account_type_revenue
+msgid "بهای تمام‌شده درآمد"
+msgstr ""
+
+#. module: l10n_ir_accounting
+#: model:account.account.type,name:l10n_ir_accounting.account_type_absorption
+msgid "حسابهاي جذب و انحرافات"
+msgstr ""
+
+#. module: l10n_ir_accounting
+#: model:account.account.type,name:l10n_ir_accounting.account_type_non_operating
+msgid "ساير هزينه ها و درآمدهاي غير عملياتي"
+msgstr ""
+
+#. module: l10n_ir_accounting
+#: model:account.account.type,name:l10n_ir_accounting.account_type_product_cost
+msgid "قيمت تمام شده كالاي فروش رفته"
+msgstr ""

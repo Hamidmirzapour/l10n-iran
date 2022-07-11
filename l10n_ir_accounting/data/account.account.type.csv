@@ -1,0 +1,5 @@
+"name","id","internal_group"
+"بهای تمام‌شده درآمد","account_type_revenue","expense"
+"حسابهاي جذب و انحرافات","account_type_absorption","expense"
+"ساير هزينه ها و درآمدهاي غير عملياتي","account_type_non_operating","expense"
+"قيمت تمام شده كالاي فروش رفته","account_type_product_cost","income"
