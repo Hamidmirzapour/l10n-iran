@@ -1,17 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <odoo>
     <data noupdate="1">
         <!-- Fiscal Position Templates -->
-        <record id="fiscal_position_template_1" model="account.fiscal.position.template">
+        <record
+            id="fiscal_position_template_1"
+            model="account.fiscal.position.template"
+        >
             <field name="name">Iran Accounting</field>
-            <field name="chart_template_id" ref="l10n_ir_chart_template"/>
-            <field name="auto_apply" eval="True"/>
-            <field name="country_id" ref="base.ir"/>
+            <field name="chart_template_id" ref="l10n_ir_chart_template" />
+            <field name="auto_apply" eval="True" />
+            <field name="country_id" ref="base.ir" />
         </record>
 
 
-        <record id="fiscal_position_tax_template_1" model="account.fiscal.position.tax.template">
-            <field name="position_id" ref="fiscal_position_template_1"  />
+        <record
+            id="fiscal_position_tax_template_1"
+            model="account.fiscal.position.tax.template"
+        >
+            <field name="position_id" ref="fiscal_position_template_1" />
             <field name="tax_src_id" ref="sale_tax_ir_9" />
             <field name="tax_dest_id" ref="purchase_tax_ir_9" />
         </record>
