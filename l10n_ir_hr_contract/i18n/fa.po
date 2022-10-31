@@ -10,10 +10,12 @@ msgstr ""
 "PO-Revision-Date: 2022-10-31 07:21+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
+"Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
+"X-Generator: Poedit 3.0\n"
 
 #. module: l10n_ir_hr_contract
 #: model_terms:ir.ui.view,arch_db:l10n_ir_hr_contract.hr_contract_form_additional_allowance

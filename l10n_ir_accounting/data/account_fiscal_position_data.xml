@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <odoo>
-    <data noupdate="1">
         <!-- Fiscal Position Templates -->
         <record
-            id="fiscal_position_template_1"
-            model="account.fiscal.position.template"
-        >
+        id="fiscal_position_template_1"
+        model="account.fiscal.position.template"
+    >
             <field name="name">Iran</field>
             <field name="auto_apply" eval="True" />
             <field name="country_id" ref="base.ir" />
@@ -14,12 +13,11 @@
 
 
         <record
-            id="fiscal_position_tax_template_1"
-            model="account.fiscal.position.tax.template"
-        >
+        id="fiscal_position_tax_template_1"
+        model="account.fiscal.position.tax.template"
+    >
             <field name="position_id" ref="fiscal_position_template_1" />
             <field name="tax_src_id" ref="ir_sale_tax_9" />
             <field name="tax_dest_id" ref="ir_purchase_tax_9" />
         </record>
-    </data>
 </odoo>

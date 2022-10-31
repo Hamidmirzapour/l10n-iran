@@ -9,7 +9,7 @@
     "license": "AGPL-3",
     "category": "Localization/Iran",
     "summary": "Iran Hr Contract",
-    "depends": ["hr_contract"],
+    "depends": ["hr", "hr_contract"],
     "data": [
         "views/hr_contract_view.xml",
         "views/res_config_settings_inherit.xml",
