@@ -1,8 +1,9 @@
 
-[![Runboat](https://img.shields.io/badge/runboat-Try%20me-875A7B.png)](https://runboat.odoo-community.org/builds?repo=OCA/l10n-iran&target_branch=14.0)
-[![Build Status](https://travis-ci.com/OCA/l10n-iran.svg?branch=14.0)](https://travis-ci.com/OCA/l10n-iran)
-[![codecov](https://codecov.io/gh/OCA/l10n-iran/branch/14.0/graph/badge.svg)](https://codecov.io/gh/OCA/l10n-iran)
-[![Translation Status](https://translation.odoo-community.org/widgets/l10n-iran-14-0/-/svg-badge.svg)](https://translation.odoo-community.org/engage/l10n-iran-14-0/?utm_source=widget)
+[![Runboat](https://img.shields.io/badge/runboat-Try%20me-875A7B.png)](https://runboat.odoo-community.org/builds?repo=OCA/l10n-iran&target_branch=16.0)
+[![Pre-commit Status](https://github.com/OCA/l10n-iran/actions/workflows/pre-commit.yml/badge.svg?branch=16.0)](https://github.com/OCA/l10n-iran/actions/workflows/pre-commit.yml?query=branch%3A16.0)
+[![Build Status](https://github.com/OCA/l10n-iran/actions/workflows/test.yml/badge.svg?branch=16.0)](https://github.com/OCA/l10n-iran/actions/workflows/test.yml?query=branch%3A16.0)
+[![codecov](https://codecov.io/gh/OCA/l10n-iran/branch/16.0/graph/badge.svg)](https://codecov.io/gh/OCA/l10n-iran)
+[![Translation Status](https://translation.odoo-community.org/widgets/l10n-iran-16-0/-/svg-badge.svg)](https://translation.odoo-community.org/engage/l10n-iran-16-0/?utm_source=widget)
 
 <!-- /!\ do not modify above this line -->
 
@@ -16,14 +17,7 @@ TODO: add repo description.
 
 [//]: # (addons)
 
-Available addons
-----------------
-addon | version | maintainers | summary
---- | --- | --- | ---
-[l10n_ir_accounting](l10n_ir_accounting/) | 14.0.3.0.0 |  | Iran Accounting Module ============================ iran accounting chart and localization. Also: - activates a number of regional currencies. - sets up Iran taxes.
-[l10n_ir_base](l10n_ir_base/) | 14.0.3.0.0 |  | Iran Base Calendar
-[l10n_ir_hr_contract](l10n_ir_hr_contract/) | 14.0.3.0.0 |  | Iran Hr Contract
-[l10n_ir_states](l10n_ir_states/) | 14.0.3.0.0 |  | Add Iran States and Cities
+This part will be replaced when running the oca-gen-addons-table script from OCA/maintainer-tools.
 
 [//]: # (end addons)
 

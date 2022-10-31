@@ -9,7 +9,6 @@ setuptools.setup(
     version=version,
     install_requires=[
         'odoo14-addon-l10n_ir_accounting',
-        'odoo14-addon-l10n_ir_base',
         'odoo14-addon-l10n_ir_hr_contract',
         'odoo14-addon-l10n_ir_states',
     ],

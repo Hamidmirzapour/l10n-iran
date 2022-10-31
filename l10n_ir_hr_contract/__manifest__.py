@@ -13,6 +13,6 @@
     "data": [
         "views/hr_contract_view.xml",
         "views/res_config_settings_inherit.xml",
-        ],
+    ],
     "installable": True,
 }
