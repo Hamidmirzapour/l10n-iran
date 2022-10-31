@@ -1,5 +1,5 @@
 **English**
-
+    Daily Wages
     Child Allowance -> Monthly child allowance based on (daily wage x 3 x children counts).
     Grocery Allowance -> Monthly rewardable extra hiring bonus.
     Hiring Bonus -> Monthly food allowance.
@@ -14,7 +14,7 @@
 
 **Persian**
 
-
+    حقوق روزانه
     .(دستمزد روزانه x 3 x تعداد کودکان)حق اولاد -> حق اولاد بر اساس
     کمک هزینه خواربار -> پاداش ماهانه اضافی برای استخدام.
     فوق العاده حق جذب -> کمک هزینه غذایی ماهیانه.

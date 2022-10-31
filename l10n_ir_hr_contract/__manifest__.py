@@ -2,7 +2,7 @@
 
 {
     "name": "Iran - Employee Contracts",
-    "version": "14.0.3.0.0",
+    "version": "16.0.1.0.0",
     "author": "Fadoo, Odoo Community Association (OCA)",
     "maintainer": ["saeed-raesi"],
     "website": "https://github.com/OCA/l10n-iran",
@@ -10,9 +10,9 @@
     "category": "Localization/Iran",
     "summary": "Iran Hr Contract",
     "depends": ["hr_contract"],
-    "data": ["views/hr_contract_view.xml"],
-    "external_dependencies": {
-        "python": ["jdatetime"],
-    },
+    "data": [
+        "views/hr_contract_view.xml",
+        "views/res_config_settings_inherit.xml",
+        ],
     "installable": True,
 }

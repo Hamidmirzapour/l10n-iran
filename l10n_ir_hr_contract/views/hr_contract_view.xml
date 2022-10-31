@@ -5,7 +5,14 @@
         <field name="model">hr.contract</field>
         <field name="inherit_id" ref="hr_contract.hr_contract_view_form" />
         <field name="arch" type="xml">
-            <xpath expr="//group[@name='salary_and_advantages']" position="inside">
+            <xpath expr="//group[@name='salary']" position="inside">
+
+                <label for="l10n_ir_daily_wages" />
+                <div class="o_row" name="l10n_ir_daily_wages">
+                    <field name="l10n_ir_daily_wages" nolabel="1" />
+                    <span>/ day</span>
+                </div>
+
                 <label for="l10n_ir_seniority_benefits" />
                 <div class="o_row" name="l10n_ir_seniority_benefits">
                     <field name="l10n_ir_seniority_benefits" nolabel="1" />

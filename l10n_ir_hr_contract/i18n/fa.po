@@ -4,43 +4,21 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: Odoo Server 16.0+e-20221025\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-25 11:30+0000\n"
-"PO-Revision-Date: 2021-09-25 15:01+0330\n"
+"POT-Creation-Date: 2022-10-31 07:21+0000\n"
+"PO-Revision-Date: 2022-10-31 07:21+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
-"Language: fa\n"
-"X-Generator: Poedit 3.0\n"
 
-#. module: base
-#: model:ir.module.module,summary:base.l10n_ir_hr_contract
-msgid ""
-"\n"
-"Iran Localization"
-msgstr "بومی سازی ایران"
-
-#. module: base
-#: model:ir.module.module,description:base.l10n_ir_hr_contract
-msgid ""
-"\n"
-"Iran Localization\n"
-msgstr "بومی سازی ایران"
-
-#. module: base
-#: model:ir.module.category,name:base.module_category_l10n
-msgid "l10n"
-msgstr "بومی سازی"
-
-#. module: base
-#: model:ir.module.module,shortdesc:base.module_l10n_ir_hr_contract
-msgid "Iran - Employee Contracts"
-msgstr "ایران - قراردادهای کارمندی"
-
+#. module: l10n_ir_hr_contract
+#: model_terms:ir.ui.view,arch_db:l10n_ir_hr_contract.hr_contract_form_additional_allowance
+msgid "<span>/ day</span>"
+msgstr "<span>/روز</span>"
 
 #. module: l10n_ir_hr_contract
 #: model_terms:ir.ui.view,arch_db:l10n_ir_hr_contract.hr_contract_form_additional_allowance
@@ -48,9 +26,31 @@ msgid "<span>/ month</span>"
 msgstr "<span>/ماه</span>"
 
 #. module: l10n_ir_hr_contract
+#: model_terms:ir.ui.view,arch_db:l10n_ir_hr_contract.res_config_settings_view_form_inherit_l10n_ir_hr_contract
+msgid "<span>Rials / day</span>"
+msgstr "<span>روز / ریال</span>"
+
+#. module: l10n_ir_hr_contract
+#: model_terms:ir.ui.view,arch_db:l10n_ir_hr_contract.res_config_settings_view_form_inherit_l10n_ir_hr_contract
+msgid "<span>Rials / month</span>"
+msgstr "<span>ماه / ریال</span>"
+
+#. module: l10n_ir_hr_contract
 #: model:ir.model.fields,field_description:l10n_ir_hr_contract.field_hr_contract__l10n_ir_child_allowance
+#: model:ir.model.fields,field_description:l10n_ir_hr_contract.field_res_config_settings__default_l10n_ir_child_allowance
+#: model_terms:ir.ui.view,arch_db:l10n_ir_hr_contract.res_config_settings_view_form_inherit_l10n_ir_hr_contract
 msgid "Child Allowance"
 msgstr "حق اولاد"
+
+#. module: l10n_ir_hr_contract
+#: model:ir.model,name:l10n_ir_hr_contract.model_res_config_settings
+msgid "Config Settings"
+msgstr "تنظیمات"
+
+#. module: l10n_ir_hr_contract
+#: model_terms:ir.ui.view,arch_db:l10n_ir_hr_contract.res_config_settings_view_form_inherit_l10n_ir_hr_contract
+msgid "Configure Default Values for Iran Salary"
+msgstr "مقادیر پیش فرض برای فیش حقوق ایران"
 
 #. module: l10n_ir_hr_contract
 #: model:ir.model,name:l10n_ir_hr_contract.model_hr_contract
@@ -58,12 +58,28 @@ msgid "Contract"
 msgstr "قرارداد"
 
 #. module: l10n_ir_hr_contract
-#: model:ir.model.fields,field_description:l10n_ir_hr_contract.field_hr_contract__display_name
-msgid "Display Name"
-msgstr "نام نمایشی"
+#: model:ir.model.fields,field_description:l10n_ir_hr_contract.field_res_config_settings__default_l10n_ir_daily_wages
+msgid "Daily Wage"
+msgstr "حقوق روزانه"
+
+#. module: l10n_ir_hr_contract
+#: model:ir.model.fields,field_description:l10n_ir_hr_contract.field_hr_contract__l10n_ir_daily_wages
+#: model:ir.model.fields,help:l10n_ir_hr_contract.field_hr_contract__l10n_ir_daily_wages
+#: model_terms:ir.ui.view,arch_db:l10n_ir_hr_contract.res_config_settings_view_form_inherit_l10n_ir_hr_contract
+msgid "Daily wages"
+msgstr "حقوق روزانه"
+
+#. module: l10n_ir_hr_contract
+#: model:ir.model.fields,help:l10n_ir_hr_contract.field_res_config_settings__default_l10n_ir_child_allowance
+#: model:ir.model.fields,help:l10n_ir_hr_contract.field_res_config_settings__default_l10n_ir_daily_wages
+#: model:ir.model.fields,help:l10n_ir_hr_contract.field_res_config_settings__default_wage
+msgid "Employee's monthly gross wage."
+msgstr "حقوق ناخالص ماهیانه کارمند"
 
 #. module: l10n_ir_hr_contract
 #: model:ir.model.fields,field_description:l10n_ir_hr_contract.field_hr_contract__l10n_ir_grocery_allowance
+#: model:ir.model.fields,field_description:l10n_ir_hr_contract.field_res_config_settings__default_l10n_ir_grocery_allowance
+#: model_terms:ir.ui.view,arch_db:l10n_ir_hr_contract.res_config_settings_view_form_inherit_l10n_ir_hr_contract
 msgid "Grocery Allowance"
 msgstr "کمک هزینه خواربار"
 
@@ -74,18 +90,15 @@ msgstr "فوق العاده حق جذب"
 
 #. module: l10n_ir_hr_contract
 #: model:ir.model.fields,field_description:l10n_ir_hr_contract.field_hr_contract__l10n_ir_house_allowance
+#: model:ir.model.fields,field_description:l10n_ir_hr_contract.field_res_config_settings__default_l10n_ir_house_allowance
+#: model_terms:ir.ui.view,arch_db:l10n_ir_hr_contract.res_config_settings_view_form_inherit_l10n_ir_hr_contract
 msgid "House Allowance"
 msgstr "کمک هزینه مسکن"
 
 #. module: l10n_ir_hr_contract
-#: model:ir.model.fields,field_description:l10n_ir_hr_contract.field_hr_contract__id
-msgid "ID"
-msgstr "شناسه"
-
-#. module: l10n_ir_hr_contract
-#: model:ir.model.fields,field_description:l10n_ir_hr_contract.field_hr_contract____last_update
-msgid "Last Modified on"
-msgstr "آخرین تاریخ ویرایش"
+#: model_terms:ir.ui.view,arch_db:l10n_ir_hr_contract.res_config_settings_view_form_inherit_l10n_ir_hr_contract
+msgid "Iran Localization"
+msgstr "بومی سازی ایران"
 
 #. module: l10n_ir_hr_contract
 #: model:ir.model.fields,field_description:l10n_ir_hr_contract.field_hr_contract__l10n_ir_life_insurance
@@ -99,11 +112,13 @@ msgstr "کمک هزینه ماهانه کودک بر اساس (دستمزد رو
 
 #. module: l10n_ir_hr_contract
 #: model:ir.model.fields,help:l10n_ir_hr_contract.field_hr_contract__l10n_ir_grocery_allowance
+#: model:ir.model.fields,help:l10n_ir_hr_contract.field_res_config_settings__default_l10n_ir_grocery_allowance
 msgid "Monthly food allowance."
 msgstr "کمک هزینه خواربار."
 
 #. module: l10n_ir_hr_contract
 #: model:ir.model.fields,help:l10n_ir_hr_contract.field_hr_contract__l10n_ir_house_allowance
+#: model:ir.model.fields,help:l10n_ir_hr_contract.field_res_config_settings__default_l10n_ir_house_allowance
 msgid "Monthly housing allowance."
 msgstr "مبلغ بیمه عمر ماهانه."
 
@@ -143,6 +158,11 @@ msgid "Responsibility Bonus "
 msgstr "پاداش مسئولیت "
 
 #. module: l10n_ir_hr_contract
+#: model_terms:ir.ui.view,arch_db:l10n_ir_hr_contract.res_config_settings_view_form_inherit_l10n_ir_hr_contract
+msgid "Salary"
+msgstr ""
+
+#. module: l10n_ir_hr_contract
 #: model:ir.model.fields,field_description:l10n_ir_hr_contract.field_hr_contract__l10n_ir_seniority_benefits
 msgid "Seniority Benefits"
 msgstr "پایه سنوات"
@@ -156,3 +176,8 @@ msgstr "بیمه تکمیلی"
 #: model:ir.model.fields,field_description:l10n_ir_hr_contract.field_hr_contract__l10n_ir_technical_bonus
 msgid "Technical Bonus"
 msgstr "پاداش فنی"
+
+#. module: l10n_ir_hr_contract
+#: model:ir.model.fields,field_description:l10n_ir_hr_contract.field_res_config_settings__default_wage
+msgid "Wage"
+msgstr "حقوق"

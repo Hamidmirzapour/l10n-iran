@@ -4,6 +4,11 @@ from odoo import fields, models
 class HrContract(models.Model):
     _inherit = "hr.contract"
 
+    l10n_ir_daily_wages = fields.Monetary(
+        string="Daily wages",
+        store=True,
+        help="Daily wages",
+    )
     l10n_ir_child_allowance = fields.Monetary(
         string="Child Allowance",
         store=True,
